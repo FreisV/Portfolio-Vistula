@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="./index.html"
+        ><h3 class="logo">
+          My <span class="logo-highlighter">Portfolio</span>
+        </h3>
+      </a>
+      <nav class="header__navigation">
+        <a class="header__navigation__item" href="./index.html">Home</a>
+        <a class="header__navigation__item" href="./contact.html">Contact</a>
+        <a
+          class="header__navigation__item header__navigation__item_active"
+          href="./projects.html"
+          >Projects</a
+        >
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="projects">
+        <h1 class="projects__title title-h1">Projects</h1>
+        <div class="projects__list">
+          <a
+            href="https://en.wikipedia.org/wiki/Forest"
+            target="_blank"
+            class="projects__list__item"
+          >
+            <div class="project__img-blok">
+              <img src="./images/forest.webp" alt="" class="project__img" />
+            </div>
+            <span class="project__type">--website</span>
+            <h2 class="project__title">Forest</h2>
+            <p class="project__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              corporis architecto. Ex laboriosam tempore natus, ipsam obcaecati
+              labore vero id?
+            </p>
+          </a>
+          <a
+            href="https://en.wikipedia.org/wiki/Mountain"
+            target="_blank"
+            class="projects__list__item"
+          >
+            <div class="project__img-blok">
+              <img src="./images/mountains.jpg" alt="" class="project__img" />
+            </div>
+            <span class="project__type">--web-app</span>
+            <h2 class="project__title">Mountains</h2>
+            <p class="project__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              corporis architecto. Ex laboriosam tempore natus, ipsam obcaecati
+              labore vero id?
+            </p>
+          </a>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Winter"
+            target="_blank"
+            class="projects__list__item"
+          >
+            <div class="project__img-blok">
+              <img src="./images/winter.jpg" alt="" class="project__img" />
+            </div>
+            <span class="project__type">--web-app</span>
+            <h2 class="project__title">Winter</h2>
+            <p class="project__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              corporis architecto. Ex laboriosam tempore natus, ipsam obcaecati
+              labore vero id?
+            </p>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <a href="./index.html" class="footer__logo">
+          <h3 class="footer__logo logo">
+            My <span class="logo-highlighter">Portfolio</span>
+          </h3>
+        </a>
+        <div class="footer__links">
+          <span class="footer__links-title">Links</span>
+          <a href="./index.html" class="footer__link">Home</a>
+          <a href="./contact.html" class="footer__link">Contact</a>
+          <a href="./projects.html" class="footer__link">Projects</a>
+        </div>
+        <div class="footer__links">
+          <span class="footer__links-title">Info</span>
+          <a href="tel: +48777777777" class="footer__link">+48 777-777-777</a>
+          <a
+            href="mailto: vzubous1@stu.vistula.edu.pl"
+            target="_blank"
+            class="footer__link"
+            >vzubous1@stu.vistula.edu.pl</a
+          >
+          <a href="https://linkedin.com/in/freisv" class="footer__link"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+      <span class="footer__disclaimer"> Vistula University 2024 </span>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

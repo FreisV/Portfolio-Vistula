@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="./index.html"
+        ><h3 class="logo">
+          My <span class="logo-highlighter">Portfolio</span>
+        </h3>
+      </a>
+      <nav class="header__navigation">
+        <a
+          class="header__navigation__item header__navigation__item_active"
+          href="./index.html"
+          >Home</a
+        >
+        <a class="header__navigation__item" href="./contact.html">Contact</a>
+        <a class="header__navigation__item" href="./projects.html">Projects</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home">
+        <div class="home__info">
+          <h1 class="home__title title-h1">About this Website</h1>
+          <p class="home__description" id="home__description"></p>
+        </div>
+        <div class="home__img-block">
+          <img src="./images/autor.PNG" alt="Autor" class="home__img" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <a href="./index.html" class="footer__logo">
+          <h3 class="footer__logo logo">
+            My <span class="logo-highlighter">Portfolio</span>
+          </h3>
+        </a>
+        <div class="footer__links">
+          <span class="footer__links-title">Links</span>
+          <a href="./index.html" class="footer__link">Home</a>
+          <a href="./contact.html" class="footer__link">Contact</a>
+          <a href="./projects.html" class="footer__link">Projects</a>
+        </div>
+        <div class="footer__links">
+          <span class="footer__links-title">Info</span>
+          <a href="tel: +48777777777" class="footer__link">+48 777-777-777</a>
+          <a href="mailto: vzubous1@stu.vistula.edu.pl" class="footer__link"
+            >vzubous1@stu.vistula.edu.pl</a
+          >
+          <a
+            href="https://linkedin.com/in/freisv"
+            target="_blank"
+            class="footer__link"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+      <span class="footer__disclaimer"> Vistula University 2024 </span>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
